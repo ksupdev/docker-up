@@ -1,2 +1,18 @@
 Command for list all container
-    docker ps --all
+    command : docker ps --all
+
+Command list the list of Image on conatiner
+    command : docker image list
+
+Command remove and force stop container
+    command : docker rm -f xxxxxxx    (xxxxxxx is conatiner id)
+
+Command remove and force stop Image
+    command : docker rmi -f xxxxxxx    (xxxxxxx is Image id)
+
+
+Command build image 
+    comment : You have to go to directory has Dockerfile ( Dockerfile is file doesn't has file extention)
+    neo4j3.4.6:0.1 => imageName:version image
+
+    command : docker build --tag neo4j3.4.6:0.1 .  
