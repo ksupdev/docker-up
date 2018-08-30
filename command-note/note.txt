@@ -15,3 +15,9 @@ Command build image
     neo4j3.4.6:0.1 => imageName:version image
 
     command : docker build --tag neo4j3.4.6:0.1 .  
+
+Command run image
+    command : docker run -p 7474:7474 -v d:/code/docker/data:/data -v d:/code/docker/logs:/logs -d neo4j:3.0
+
+    comment :   -p mapping your machine’s port to the container’s published port 
+                -d says "run in daemon mode" or "run in the background."
