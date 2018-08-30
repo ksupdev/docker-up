@@ -1,0 +1,2 @@
+Command for list all container
+    docker ps --all
