@@ -21,3 +21,9 @@ Command run image
 
     comment :   -p mapping your machine’s port to the container’s published port 
                 -d says "run in daemon mode" or "run in the background."
+
+
+https://www.mkyong.com/linux/grep-for-windows-findstr-example/
+docker logs mysql1 2>&1 | findstr GENERATED
+
+// You can used findstr instend of grep
